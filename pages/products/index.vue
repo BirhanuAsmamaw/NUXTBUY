@@ -2,13 +2,12 @@
 
 <template>
     <div>
-     <p> Products</p>
+     <p> Products of our Sales</p>
     </div>
 </template>
 
 <script>
     export default {
-        
     }
 </script>
 
