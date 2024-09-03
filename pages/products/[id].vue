@@ -1,19 +1,20 @@
 <template>
   <div>
-    <p> Product details for {{ id }} </p>
-    <p> It is very important for the customer to pay attention to the adipiscing process. 
-      The reason for choosing the flight itself is to seek the truth! For those of us who accuse him of great trouble, 
-      let him avoid making the choice, the very pleasure, in the elders. Born with no pains,
-       he hates the whole thing with a great hatred.
-    </p>
+    <p>{{ product.title }}</p>
+    <p>{{ product.price  }}</p>
+    <p>{{ product.id }}</p>
   </div>
 </template>
   
 <script setup>
    const { id } = useRoute().params
-   
+   const uri = `https://fakestoreapi.com/products/` + id
+
+   // fetch the product
+   const { data: product} = await useFetch(uri , { key: id})
+
    definePageMeta({
-    layout: 'products',
+    layout: 'products'
    })
 </script>
 
