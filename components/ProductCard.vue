@@ -15,8 +15,10 @@
 <style  scoped>
 .thumb
 {
+
   max-width: 70%;
   max-height: 120px;
   margin: 0 auto;
+  
 }
 </style>
