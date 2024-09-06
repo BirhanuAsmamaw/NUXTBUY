@@ -17,8 +17,10 @@
   h2 {
     margin-bottom: 20px;
     fzont-size: 36px;
+
   }
   p {
+    
     margin: 20px 0;
   }
 </style>
