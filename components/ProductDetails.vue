@@ -5,12 +5,10 @@
             <img :src="product.image" alt="product img" class="mx-auto my-7">      
         </div>
         <div>
-          
             <h2 class="text-4xl my-7">{{ product.title }}</h2>
             <p class="text-xl my-7">price - ${{ product.price }}</p>
             <h3 class="font-bold border-b-2 mb-4 pb-2">Product description: </h3>
             <p class="mb-7">{{ product.description }}</p>
-
         </div>
       </div>
     </div>
