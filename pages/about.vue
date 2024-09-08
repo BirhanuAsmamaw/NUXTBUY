@@ -1,4 +1,5 @@
 <template>
+  
     <div>
       <h2>About</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -6,6 +7,7 @@
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
         Incidunt quasi at perspiciatis quaerat. Cum quae necessitatibus commodi corrupti omnis odit?</p>
       </div>
+
 </template>
 
 <script setup>
@@ -17,6 +19,7 @@
     margin-bottom: 20px;
     font-size: 36px;
   }
+
   p {
     margin: 20px 0;
   }
