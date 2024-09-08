@@ -4,6 +4,7 @@
         <div class="p-7">
             <img :src="product.image" alt="product img" class="mx-auto my-7">      
         </div>
+        
         <div>
             <h2 class="text-4xl my-7">{{ product.title }}</h2>
             <p class="text-xl my-7">price - ${{ product.price }}</p>

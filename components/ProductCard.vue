@@ -13,6 +13,7 @@
 </script>
 
 <style  scoped>
+
 .thumb
 {
   max-width: 70%;
